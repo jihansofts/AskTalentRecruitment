@@ -14,33 +14,26 @@ fs.writeFileSync(cssPath, css, "utf8");
 function processFile(filePath) {
   let text = fs.readFileSync(filePath, "utf8");
   const orig = text;
-  text = text
-    .split('style={{ fontFamily: "var(--font-playfair-display), serif" }}')
-    .join("");
-  text = text
-    .split("style={{ fontFamily: 'var(--font-playfair-display), serif' }}")
-    .join("");
-  text = text
-    .split('style={{ fontFamily: "var(--font-playfair-display), serif",')
-    .join("style={{");
-  text = text
-    .split("style={{ fontFamily: 'var(--font-playfair-display), serif',")
-    .join("style={{");
-  text = text
-    .split('fontFamily: "var(--font-playfair-display), serif",')
-    .join("");
-  text = text
-    .split("fontFamily: 'var(--font-playfair-display), serif',")
-    .join("");
-  text = text
-    .split('fontFamily: "var(--font-playfair-display), serif"')
-    .join("");
-  text = text
-    .split("fontFamily: 'var(--font-playfair-display), serif'")
-    .join("");
+
+  // Remove direct Playfair fontFamily declarations from inline style objects.
+  text = text.replace(
+    /fontFamily:\s*['"]var\(--font-playfair-display\), serif['"],?/g,
+    "",
+  );
+
+  // Remove entire inline style object if it only contained the Playfair fontFamily.
   text = text.replace(/style=\{\{\s*\}\}/g, "");
+  text = text.replace(
+    /style=\{\{\s*fontFamily:\s*['"]var\(--font-playfair-display\), serif['"]\s*\}\}/g,
+    "",
+  );
+
+  // Convert serif class usage to our global sans font stack.
   text = text.replace(/font-serif/g, "font-sans");
+
+  // Clean any remaining Playfair variable references.
   text = text.replace(/var\(--font-playfair-display\), serif/g, "");
+
   if (text !== orig) {
     fs.writeFileSync(filePath, text, "utf8");
     return true;

@@ -3,7 +3,10 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans:
+    var(--font-roboto), var(--font-montserrat), system-ui, sans-serif;
+  --font-serif:
+    var(--font-roboto), var(--font-montserrat), system-ui, sans-serif;
   --font-mono: var(--font-geist-mono);
   --color-brand-primary: #a288e3;
   --color-brand-secondary: #a288e3;
@@ -22,9 +25,13 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family:
-    var(--font-roboto), var(--font-montserrat), system-ui, sans-serif;
+  font-family: var(--font-roboto), var(--font-montserrat), system-ui, sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-montserrat), var(--font-roboto), system-ui, sans-serif;
+}
+
 
 h1,
 h2,
