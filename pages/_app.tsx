@@ -3,11 +3,8 @@ import type { AppProps } from "next/app";
 import MainHeader from "@/components/MainHeader";
 import { Montserrat } from "next/font/google";
 import { useEffect } from "react";
-import dynamic from "next/dynamic";
 import FooterBottomBar from "@/components/FooterBottomBar";
 import SimpleFooter from "@/components/SimpleFooter";
-
-const AOS = dynamic(() => import("aos"), { ssr: false });
 import "aos/dist/aos.css";
 
 const montserrat = Montserrat({

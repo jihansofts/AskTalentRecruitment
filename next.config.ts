@@ -3,9 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactCompiler: true,
   reactStrictMode: true,
-  swcMinify: true,
   compress: true,
-  optimizeFonts: true,
   poweredByHeader: false,
   images: {
     unoptimized: process.env.NODE_ENV === "production" ? false : true,
