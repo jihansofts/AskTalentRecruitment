@@ -1,0 +1,43 @@
+import Head from "next/head";
+import HireTalentHero from "@/components/HireTalentHero";
+import HireTalentSubNav from "@/components/HireTalentSubNav";
+import StaffingBenefits from "@/components/StaffingBenefits";
+import HiringProcess from "@/components/HiringProcess";
+import StaffingCTA from "@/components/StaffingCTA";
+import MobileAppSection from "@/components/MobileAppSection";
+
+export default function HireTalent() {
+  return (
+    <>
+      <Head>
+        <title>Hire Manpower - AskTalentRecruitment</title>
+        <meta
+          name="description"
+          content="Partner with AskTalentRecruitment for premium manpower solutions. Access pre-vetted global talent for direct recruitment and bulk manpower deployment needs."
+        />
+      </Head>
+      <main className="min-h-screen bg-white">
+        <HireTalentHero />
+        <HireTalentSubNav />
+
+        <div data-aos="fade-up">
+          <StaffingBenefits />
+        </div>
+
+        <div data-aos="fade-up">
+          <HiringProcess />
+        </div>
+
+        <div data-aos="fade-up">
+          <StaffingCTA />
+        </div>
+
+        <div data-aos="fade-up">
+          <MobileAppSection />
+        </div>
+
+        <div data-aos="fade-up"></div>
+      </main>
+    </>
+  );
+}
