@@ -70,7 +70,7 @@ export default function PreDepartureOrientation() {
               <div className="order-1 lg:order-2" data-aos="fade-left">
                 <h2
                   className="text-3xl md:text-5xl font-light text-brand-dark mb-8 leading-tight"
-                  style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                  >
                   Preparation Prevents{" "}
                   <span className="font-bold italic text-brand-dark">
                     Premature Returns
@@ -97,7 +97,7 @@ export default function PreDepartureOrientation() {
             <div className="text-center mb-16">
               <h3
                 className="text-2xl md:text-4xl font-light text-brand-dark mb-4"
-                style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                >
                 Our Training Curriculum
               </h3>
               <div className="w-16 h-1 bg-brand-dark mx-auto"></div>

@@ -19,7 +19,7 @@ export default function SuccessStoriesHero() {
             <div className="absolute bottom-16 md:bottom-22 left-6 md:left-24 z-20 text-white max-w-2xl">
                 <h1
                     className="text-5xl md:text-7xl font-light drop-shadow-lg"
-                    style={{ fontFamily: 'var(--font-playfair-display), serif' }}
+                    
                 >
                     Success <span className="italic">Stories</span>
                 </h1>

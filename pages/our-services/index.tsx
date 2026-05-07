@@ -116,7 +116,7 @@ export default function OurServices() {
           <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 text-center">
             <h2
               className="text-3xl md:text-5xl text-brand-dark font-light mb-8 max-w-4xl mx-auto leading-tight"
-              style={{ fontFamily: "var(--font-playfair-display), serif" }}
+              
               data-aos="fade-up">
               We manage the complexities of international recruitment so you can
               focus on building your business.
@@ -182,7 +182,7 @@ export default function OurServices() {
             <div className="mb-16 md:mb-24 text-center" data-aos="fade-up">
               <h2
                 className="text-4xl md:text-5xl font-light mb-6"
-                style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                >
                 How We <span className="italic font-bold">Deliver</span>
               </h2>
               <p className="text-gray-400 text-sm md:text-base max-w-2xl mx-auto">
@@ -212,9 +212,7 @@ export default function OurServices() {
                         className={`ml-12 md:ml-0 md:w-5/12 ${isEven ? "md:pr-12 md:text-right" : "md:pl-12 md:ml-auto"}`}>
                         <div
                           className="text-6xl font-black text-white/5 mb-2 pointer-events-none"
-                          style={{
-                            fontFamily: "var(--font-playfair-display), serif",
-                          }}>
+                          >
                           {step.num}
                         </div>
                         <h4 className="text-xl font-bold mb-3">{step.title}</h4>

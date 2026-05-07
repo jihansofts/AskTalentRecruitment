@@ -24,7 +24,7 @@ export default function SuccessStories() {
           <div className="container mx-auto px-6 md:px-12 text-center max-w-4xl">
             <h3
               className="text-2xl md:text-4xl text-brand-dark font-light mb-6"
-              style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+              >
               Your Story Could Be Next
             </h3>
             <p className="text-gray-600 text-lg mb-8">

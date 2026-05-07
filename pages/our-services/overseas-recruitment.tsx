@@ -74,7 +74,7 @@ export default function OverseasRecruitment() {
               <div data-aos="fade-right">
                 <h2
                   className="text-3xl md:text-5xl font-light text-brand-dark mb-8"
-                  style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                  >
                   Your Trusted Pipeline for{" "}
                   <span className="font-bold italic text-brand-dark">
                     Global Talent
@@ -129,7 +129,7 @@ export default function OverseasRecruitment() {
             <div className="text-center mb-16">
               <h3
                 className="text-3xl font-light text-brand-dark mb-4"
-                style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                >
                 Why Choose Our Recruitment Model
               </h3>
               <div className="w-24 h-1 bg-brand-dark mx-auto"></div>
@@ -167,7 +167,7 @@ export default function OverseasRecruitment() {
               <div className="lg:col-span-4" data-aos="fade-right">
                 <h3
                   className="text-3xl font-light mb-6"
-                  style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                  >
                   Sectors We{" "}
                   <span className="font-bold italic text-brand-dark">
                     Serve
@@ -199,7 +199,7 @@ export default function OverseasRecruitment() {
           <div className="max-w-4xl mx-auto px-6">
             <h2
               className="text-3xl md:text-5xl font-light text-white mb-8"
-              style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+              >
               Ready to Mobilize Your Next Project?
             </h2>
             <p className="text-[#b4e7ed] mb-10 text-lg">

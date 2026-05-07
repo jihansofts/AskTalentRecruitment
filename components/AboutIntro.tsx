@@ -36,7 +36,7 @@ export default function AboutIntro() {
             </p>
             <h2
               className="text-4xl md:text-[3.2rem] leading-tight text-brand-primary font-light"
-              style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+              >
               A Commitment to
               <span className="italic">Better careers</span>
             </h2>
@@ -45,7 +45,7 @@ export default function AboutIntro() {
           <div className="lg:w-7/12">
             <p
               className="text-gray-700 text-base md:text-lg leading-relaxed mb-6"
-              style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+              >
               AskTalentRecruitment is a premier international recruitment and manpower
               solutions company connecting leading global employers with
               exceptional talent from South Asia. With a strong operational
@@ -78,9 +78,7 @@ export default function AboutIntro() {
                 className="flex flex-col md:flex-row items-start md:items-baseline gap-1 md:gap-3">
                 <span
                   className="text-5xl md:text-6xl font-light text-brand-primary"
-                  style={{
-                    fontFamily: "var(--font-playfair-display), serif",
-                  }}>
+                  >
                   {stat.value}
                 </span>
                 <div className="flex flex-col">

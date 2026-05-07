@@ -108,7 +108,7 @@ export default function BulkDeployments() {
           <div className="absolute bottom-16 md:bottom-22 left-6 md:left-24 z-20 text-white max-w-2xl">
             <h1
               className="text-4xl md:text-6xl font-light mb-3 drop-shadow-lg"
-              style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+              >
               Bulk <span className="font-bold italic">Deployments</span>
             </h1>
             <p className="text-sm md:text-lg drop-shadow-md text-gray-200">
@@ -127,7 +127,7 @@ export default function BulkDeployments() {
               <div className="lg:w-5/12" data-aos="fade-up">
                 <h2
                   className="text-4xl md:text-5xl text-brand-dark font-light mb-6"
-                  style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                  >
                   Scale On <span className="italic font-bold">Demand</span>
                 </h2>
                 <h3 className="text-lg text-brand-dark font-semibold mb-6">
@@ -189,7 +189,7 @@ export default function BulkDeployments() {
             <div className="mb-12" data-aos="fade-up">
               <h2
                 className="text-4xl md:text-5xl text-brand-dark font-light mb-4"
-                style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                >
                 Trades
                 <span className="italic font-bold"> We Supply</span>
               </h2>
@@ -221,9 +221,7 @@ export default function BulkDeployments() {
                   <div className="p-6">
                     <h3
                       className="text-xl text-brand-dark font-bold mb-2"
-                      style={{
-                        fontFamily: "var(--font-playfair-display), serif",
-                      }}>
+                      >
                       {item.title}
                     </h3>
                     <p className="text-sm text-gray-500 leading-relaxed">
@@ -242,7 +240,7 @@ export default function BulkDeployments() {
             <div className="mb-12" data-aos="fade-up">
               <h2
                 className="text-4xl md:text-5xl text-brand-dark font-light mb-4"
-                style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                >
                 Campaign{" "}
                 <span className="italic font-bold">Execution Roadmap</span>
               </h2>
@@ -278,9 +276,7 @@ export default function BulkDeployments() {
                   data-aos-delay={index * 100}>
                   <div
                     className="text-5xl font-bold text-gray-200 group-hover:text-brand-dark/20 transition-colors mb-4"
-                    style={{
-                      fontFamily: "var(--font-playfair-display), serif",
-                    }}>
+                    >
                     {item.step}
                   </div>
                   <h4 className="text-brand-dark font-bold text-base mb-3">

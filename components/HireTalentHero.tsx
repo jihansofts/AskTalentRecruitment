@@ -96,7 +96,7 @@ export default function HireTalentHero() {
             <div key={i} className="animate-slide-up-hero pointer-events-auto">
               <h1
                 className="text-4xl md:text-6xl font-light mb-2 drop-shadow-lg"
-                style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                >
                 {data.title} <span className="font-bold">{data.subtitle}</span>
               </h1>
               <p className="text-sm md:text-lg mb-8 drop-shadow-md text-gray-200">

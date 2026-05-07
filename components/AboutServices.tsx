@@ -63,14 +63,14 @@ export default function AboutServices() {
               {/* Watermark text */}
               <div
                 className="absolute top-6 md:top-10 left-6 md:left-12 right-6 text-6xl md:text-7xl lg:text-8xl font-light text-gray-200/60 leading-tight pointer-events-none select-none"
-                style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                >
                 {service.watermark}
               </div>
 
               <div className="relative z-10 px-8 md:px-12 lg:px-16 py-12 md:py-16">
                 <h3
                   className="text-2xl md:text-3xl text-brand-dark font-bold mb-6"
-                  style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                  >
                   {service.title}
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-8">

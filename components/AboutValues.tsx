@@ -57,7 +57,7 @@ export default function AboutValues() {
           </p>
           <h2
             className="text-4xl md:text-5xl text-brand-dark font-light mb-6"
-            style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+            >
             What Drives{" "}
             <span className="italic font-bold">AskTalentRecruitment</span>
           </h2>

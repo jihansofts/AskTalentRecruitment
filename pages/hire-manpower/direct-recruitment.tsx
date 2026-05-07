@@ -125,7 +125,7 @@ export default function DirectRecruitment() {
           <div className="absolute bottom-16 md:bottom-22 left-6 md:left-24 z-20 text-white max-w-2xl">
             <h1
               className="text-4xl md:text-6xl font-light mb-3 drop-shadow-lg"
-              style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+              >
               Direct <span className="font-bold italic">Recruitment</span>
             </h1>
             <p className="text-sm md:text-lg drop-shadow-md text-gray-200">
@@ -144,7 +144,7 @@ export default function DirectRecruitment() {
               <div className="lg:w-5/12" data-aos="fade-up">
                 <h2
                   className="text-4xl md:text-5xl text-brand-dark font-light mb-6"
-                  style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                  >
                   Source Reliable{" "}
                   <span className="italic font-bold">Talent</span>
                 </h2>
@@ -204,7 +204,7 @@ export default function DirectRecruitment() {
               data-aos="fade-up">
               <h2
                 className="text-4xl md:text-5xl text-brand-dark font-light mb-6"
-                style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                >
                 End-to-End Recruitment{" "}
                 <span className="italic font-bold">Execution</span>
               </h2>
@@ -230,9 +230,7 @@ export default function DirectRecruitment() {
                     />
                     <div
                       className="absolute -bottom-8 -right-8 text-8xl font-bold text-white drop-shadow-xl"
-                      style={{
-                        fontFamily: "var(--font-playfair-display), serif",
-                      }}>
+                      >
                       {step.step}
                     </div>
                   </div>
@@ -242,9 +240,7 @@ export default function DirectRecruitment() {
                     </div>
                     <h3
                       className="text-3xl text-brand-dark font-light mb-6"
-                      style={{
-                        fontFamily: "var(--font-playfair-display), serif",
-                      }}>
+                      >
                       {step.title}
                     </h3>
                     <p className="text-gray-600 leading-relaxed text-base">
@@ -266,7 +262,7 @@ export default function DirectRecruitment() {
               <div className="max-w-2xl">
                 <h2
                   className="text-4xl md:text-5xl text-brand-dark font-light mb-4"
-                  style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                  >
                   Proven Track <span className="italic font-bold">Record</span>
                 </h2>
                 <p className="text-gray-600 text-sm md:text-base leading-relaxed">

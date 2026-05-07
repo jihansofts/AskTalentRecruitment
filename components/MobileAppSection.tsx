@@ -15,7 +15,7 @@ const GlobalCTA = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">
           {/* Text Content */}
           <div className="w-full md:w-2/3 text-center md:text-left">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl text-white font-serif mb-4 md:mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl text-white font-sans mb-4 md:mb-6">
               Ready to Take the{" "}
               <span className="italic text-brand-primary">Next Step?</span>
             </h2>

@@ -60,7 +60,7 @@ export default function SpecializedHeadhunting() {
               <div data-aos="fade-right">
                 <h2
                   className="text-3xl md:text-5xl font-light text-brand-dark mb-8 leading-tight"
-                  style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                  >
                   Targeted Search for{" "}
                   <span className="font-bold italic text-brand-dark">
                     Strategic Hires

@@ -101,7 +101,7 @@ export default function OurNewLaunches() {
       <div className="md:pl-10 overflow-hidden">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 md:mb-12 pr-14 ps-6 md:ps-0">
-          <div className="text-3xl md:text-3xl text-center md:text-left w-full md:w-auto text-brand-dark font-light tracking-tight" style={{ fontFamily: 'var(--font-playfair-display), serif' }}>
+          <div className="text-3xl md:text-3xl text-center md:text-left w-full md:w-auto text-brand-dark font-light tracking-tight" >
             <span className="italic">Latest</span> Vacancies
           </div>
 

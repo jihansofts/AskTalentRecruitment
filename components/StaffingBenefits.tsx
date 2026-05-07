@@ -50,7 +50,7 @@ export default function StaffingBenefits() {
           <div className="lg:w-5/12" data-aos="fade-up">
             <h2
               className="text-4xl md:text-5xl text-brand-dark font-light mb-6"
-              style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+              >
               Why Choose{" "}
               <span className="italic font-bold">AskTalentRecruitment</span>
             </h2>

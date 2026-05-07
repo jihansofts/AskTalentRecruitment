@@ -83,7 +83,7 @@ export default function HiringProcess() {
         <div className="mb-12" data-aos="fade-up">
           <h2
             className="text-4xl md:text-5xl text-brand-dark font-light mb-4"
-            style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+            >
             Our Recruitment
             <span className="italic font-bold">Process</span>
           </h2>
@@ -117,7 +117,7 @@ export default function HiringProcess() {
               data-aos-delay={index * 100}>
               <div
                 className="absolute top-6 right-6 text-5xl font-bold text-gray-100 group-hover:text-brand-dark/10 transition-colors"
-                style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                >
                 {String(index + 1).padStart(2, "0")}
               </div>
               <step.icon className="w-10 h-10 text-brand-dark mb-6 stroke-1" />

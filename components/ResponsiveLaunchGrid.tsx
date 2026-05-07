@@ -23,7 +23,7 @@ export default function ResponsiveLaunchGrid({ titleNode, description, items }: 
     <section className="py-20 md:py-32 md:px-12 lg:px-24 max-w-7xl mx-auto overflow-hidden">
       <div className="mb-10 md:mb-16 max-w-3xl px-6 md:px-0 flex flex-col md:flex-row md:items-end justify-between" data-aos="fade-up">
         <div>
-          <h2 className="text-4xl md:text-5xl text-brand-dark font-light mb-6" style={{ fontFamily: 'var(--font-playfair-display), serif' }}>
+          <h2 className="text-4xl md:text-5xl text-brand-dark font-light mb-6" >
             {titleNode}
           </h2>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed">

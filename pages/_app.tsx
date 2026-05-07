@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import MainHeader from "@/components/MainHeader";
-import { Montserrat } from "next/font/google";
+import { Montserrat, Roboto } from "next/font/google";
 import { useEffect } from "react";
 import FooterBottomBar from "@/components/FooterBottomBar";
 import SimpleFooter from "@/components/SimpleFooter";
@@ -11,6 +11,11 @@ const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat",
   weight: ["300", "400", "500", "600", "700", "800", "900"],
+});
+const roboto = Roboto({
+  subsets: ["latin"],
+  variable: "--font-roboto",
+  weight: ["300", "400", "500", "700", "900"],
 });
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -29,7 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
   }, []);
 
   return (
-    <div className={`${montserrat.variable} font-sans`}>
+    <div className={`${montserrat.variable} ${roboto.variable} font-sans`}>
       <MainHeader />
       <Component {...pageProps} />
       <FooterBottomBar />

@@ -62,7 +62,7 @@ export default function VisaProcessing() {
             <div className="text-center max-w-4xl mx-auto mb-16 md:mb-24">
               <h2
                 className="text-3xl md:text-5xl font-light text-brand-dark mb-8 leading-tight"
-                style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                >
                 Speeding Up the Most Critical Phase of{" "}
                 <span className="font-bold italic text-brand-dark">
                   Deployment
@@ -133,7 +133,7 @@ export default function VisaProcessing() {
               <div data-aos="fade-left">
                 <h3
                   className="text-3xl font-light text-white mb-6"
-                  style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+                  >
                   Compliance Without Compromise
                 </h3>
                 <p className="text-gray-400 mb-6 leading-relaxed">

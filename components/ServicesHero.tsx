@@ -55,7 +55,7 @@ export default function ServicesHero({ title, titleAccent, subtitle, image, brea
                 </nav>
                 <h1
                     className="text-4xl md:text-6xl font-light mb-3 drop-shadow-lg"
-                    style={{ fontFamily: 'var(--font-playfair-display), serif' }}
+                    
                 >
                     {title} <span className="font-bold italic">{titleAccent}</span>
                 </h1>

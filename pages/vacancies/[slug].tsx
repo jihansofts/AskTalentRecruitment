@@ -154,7 +154,7 @@ export default function JobDetails() {
                 <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
                     {/* Left Column: Job Description */}
                     <div className="lg:w-8/12" data-aos="fade-up">
-                        <h2 className="text-3xl md:text-4xl text-brand-dark font-light mb-6" style={{ fontFamily: 'var(--font-playfair-display), serif' }}>
+                        <h2 className="text-3xl md:text-4xl text-brand-dark font-light mb-6" >
                             Role <span className="italic font-bold">Overview</span>
                         </h2>
                         <div className="w-16 h-1 bg-brand-primary mb-8" />

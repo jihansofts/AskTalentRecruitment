@@ -19,7 +19,7 @@ export default function StaffingCTA() {
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
         <h2
           className="text-3xl md:text-5xl text-white font-light mb-4"
-          style={{ fontFamily: "var(--font-playfair-display), serif" }}
+          
           data-aos="fade-up">
           Ready to Build
           <span className="italic font-bold">Your Workforce?</span>

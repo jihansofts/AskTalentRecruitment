@@ -248,7 +248,7 @@ export default function FindJobs() {
           <div className="mb-12 max-w-3xl" data-aos="fade-up">
             <h2
               className="text-4xl md:text-5xl text-brand-dark font-light mb-6"
-              style={{ fontFamily: "var(--font-playfair-display), serif" }}>
+              >
               Explore Global
               <span className="italic">Career Opportunities</span>
             </h2>

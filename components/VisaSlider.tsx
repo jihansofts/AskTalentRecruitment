@@ -31,7 +31,7 @@ export default function VisaSlider({ visas = placeholderVisas }: { visas?: VisaP
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-10">
           <div>
-            <h2 className="text-3xl md:text-5xl text-brand-dark font-light" style={{ fontFamily: 'var(--font-playfair-display), serif' }}>
+            <h2 className="text-3xl md:text-5xl text-brand-dark font-light" >
               Visa <span className="italic text-brand-primary">Approvals</span> & Placements
             </h2>
             <p className="mt-4 text-gray-600 max-w-2xl text-lg">
